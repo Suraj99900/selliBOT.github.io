@@ -37,6 +37,7 @@ function requestSelli() {
                 div_box_selli.append(selli);
                 chat.append(div_box_selli);
                 scrollDown();
+              msg.value = "";
                 i++;
             }
         }
