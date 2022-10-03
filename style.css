@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background: #051938;
+}
+
+
+/* chat box  */
+
+.chatbox{
+    position: relative;
+    height: 55vh;
+    overflow-y:scroll ;
+    width: 100%;
+}
+
+.chatbox .user_msg{
+    width: auto;
+    
+}
+
+.chatbox .selli_msg{
+    width: auto;
+}
+
+.usermsg{
+    align-items: flex-end;
+    display: flex;
+    justify-content: end;
+}
+.sellimsg{
+    align-items: flex-end;
+    display: flex;
+    justify-content: start;
+    
+}
+
+/* user input query section */
+
+.msg{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    height: 5rem;
+    gap: 1rem;
+    justify-content: center;
+    background: rgba(0,0,0,0.3);
+    align-items: center;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 20px rgba(0,0,0,0.8);
+}
+
+.msg .msg_type{
+    width: 90%;
+    padding: 0.5rem;
+}
+
+.msg .msg_type input{
+    width: 100%;
+    /* outline: none; */
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.msg .btn{
+    width: 100px;
+    height: 3rem;
+    border-radius: 16px;
+}
